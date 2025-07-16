@@ -1,0 +1,34 @@
+name: my_mood_tracker
+description: A new Flutter project.
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  google_fonts: ^6.2.1 
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/pinkbg.jpg
+    - assets/bluebg.jpg
+    - assets/emotions/happy.png
+    - assets/emotions/excited.png
+    - assets/emotions/silly.png
+    - assets/emotions/bored.png
+    - assets/emotions/sad.png
+    - assets/emotions/angry.png
+    - assets/cursor.png
+    - assets/hearts.png
+

@@ -1,0 +1,40 @@
+name: wellora
+description: A new Flutter project.
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  google_fonts: ^6.2.1 
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lib/features/my_mood_tracker/assets/pinkbg.jpg
+    - lib/features/my_mood_tracker/assets/bluebg.jpg
+    - lib/features/my_mood_tracker/assets/emotions/happy.png
+    - lib/features/my_mood_tracker/assets/emotions/excited.png
+    - lib/features/my_mood_tracker/assets/emotions/silly.png
+    - lib/features/my_mood_tracker/assets/emotions/bored.png
+    - lib/features/my_mood_tracker/assets/emotions/sad.png
+    - lib/features/my_mood_tracker/assets/emotions/angry.png
+    - lib/features/my_mood_tracker/assets/cursor.png
+    - lib/features/my_mood_tracker/assets/hearts.png
+    - lib/features/to_do_list/assets/bg.jpg
+    - lib/features/to_do_list/assets/blue_bg.jpg
+    - assets/pinkaura.jpg
+    - assets/Logo.png
+    - lib/features/sleep_tracker/assets/yellow.jpg
+    - lib/features/journal/assets/green.jpg
+
